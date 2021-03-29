@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #0E243A;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    width: 1920px;
+}
+.nav-item li{
+    list-style: none;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;  
+    padding: 20px; 
+    cursor: pointer;
+}
+.nav-item:last-child{
+    display: flex;   
+    position: absolute;
+    left: 50%;
+    right: 4%;
+    top: 0.6%;
+    bottom: 99.18%;  
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 5px;
+}
+.m_2{
+    padding-left: 30px;
+}
+.mp_3{
+    color:#fff;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center; 
+}
+.Sign_In{
+    width: 75px;
+    padding: 7px;
+    border-radius: 5px;
+    background: #0E243A;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight:bold;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-right: 30px;
+}
+.Create_Account{
+    height: 50px;
+    width: 187px;
+    left: 1590px;
+    top: 42px;
+    border-radius: 4px;
+    padding: 5px, 27px, 5px, 27px;
+    background: #fff;
+    color: #169916;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.5px;   
+    border: unset;
+    outline: none;
+}
+main{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+header{
+    font-family: Manrope;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: -3px;
+    text-align: left;
+    margin-top: 6%;
+    color: #fff;
+}
+.mission{
+    position: absolute;
+    width: 580px;
+    top: 220px;
+    height: 160px;
+    font-family: Inter;
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 21px;
+    line-height: 40px;
+    color: #fff;
+    opacity: 0.9;
+    height: 160px;
+}
+.btn{
+    margin-top: 13%;
+}
+ .Enroll{
+    padding: 12px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 10px;
+    background: #39B54A;
+    outline: none;
+    border: none;
+} 
+.More{
+    padding: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #7b917e;
+    font-family: Inter;
+    border: 1px solid #39B54A;
+    border-radius: 5px;  
+    outline: none;
+    background: #0E243A;
+} 
+.eclipse{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 77%;
+    right: 0;
+    top: 100px;
+    border-radius: 50%;
+    background: #39B54A;
+}
+.image{
+    position: absolute;
+    width: 500px;
+    height: 520px;
+    right: 0px;
+    object-fit: cover; 
+    margin-left: 30%;
+    z-index: 1;
+    top: 120px;
+}
+.image_1{
+    position: absolute;
+    width: 300px;
+    margin-left: 40%;
+    top: 350px;
+    left: 30px;
+}
+.event{
+    position: absolute;
+    width: 400px;
+    margin-top: 32px;
+    background: #FFFFFF;
+    height: 250px;
+    overflow: hidden;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+.event_title{
+    position: absolute;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 55%;
+    top: 7px;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #39B54A ;
+}
+.event_date{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    letter-spacing: 2.5px;
+    color: #2B2B2B;
+}
+.event_info{
+    width: 300px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #7D7D7D;
+}
+.event_time{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    color: #A6A6A6;
+}
